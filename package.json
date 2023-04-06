@@ -1,0 +1,8 @@
+{
+  "name": "data-server",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/rajeshbosak/data-server.git",
+  "author": "rajeshraman63 <rajeshraman63@gmail.com>",
+  "license": "MIT"
+}
