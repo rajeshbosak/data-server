@@ -2,7 +2,19 @@
   "name": "data-server",
   "version": "1.0.0",
   "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\"",
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
   "repository": "https://github.com/rajeshbosak/data-server.git",
-  "author": "rajeshraman63 <rajeshraman63@gmail.com>",
-  "license": "MIT"
+  "author": "rrb",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "mongoose": "^7.0.3",
+    "nodemon": "^2.0.22"
+  }
 }
